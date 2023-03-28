@@ -1,4 +1,4 @@
-use Mix.Config
+import Config
 
 # # Example Vapid keypair. Generate your own: mix gen.web_push_keys
 
