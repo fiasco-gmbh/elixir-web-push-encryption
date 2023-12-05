@@ -24,7 +24,7 @@ defmodule WebPushEncryption.Mixfile do
 
   defp deps do
     [
-      {:httpoison, "~> 2.1.0"},
+      {:httpoison, "~> 2.2"},
       {:jose, "~> 1.11.5"},
       {:poison, "~> 3.0", only: [:dev, :test]},
       {:earmark, "~> 1.0", only: :dev},
